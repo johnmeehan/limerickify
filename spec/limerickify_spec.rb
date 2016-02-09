@@ -7,7 +7,7 @@ describe Limerickify do
 
   describe ".translate" do
     subject { Limerickify.translate('hello')}
-    # it { is_expected.to == 'well sham'}
-    it { is_expected.to eq 'hello'}
+    it { is_expected.to == 'well sham'}
+    # it { is_expected.to eq 'hello'}
   end
 end
