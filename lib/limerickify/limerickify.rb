@@ -9,16 +9,22 @@ module Limerickify
       translation = translate_string(to_translate)
     end
 
-    def self.translate_string(to_tanslate)
-
-      to_translate.split(/ /).map do |word|
-
+    def self.translate_string(word)
+      return unless word
+      # to_translate.split(/ /).map do |word|
+        # convert each word using the limerick dictionary
+      if dictionary.has_key? word
+        dictionary[word]
       end
 
     end
 
+    def self.dictionary
+      @@dictionary_map ||= config["dictionary"]
+    end
+
     def self.config
-      @@config ||= YAML::load_file(File.dirname(__FILE__) + "/limerickify/limerick.yml")
+      @@config ||= YAML::load_file(File.dirname(__FILE__) + "/limerick.yml")
     end
 
 end
