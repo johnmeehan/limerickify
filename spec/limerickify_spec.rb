@@ -6,8 +6,13 @@ describe Limerickify do
   # end
 
   describe ".translate" do
-    subject { Limerickify.translate('hello')}
-    it { is_expected.to == 'well sham'}
-    # it { is_expected.to eq 'hello'}
+    context 'a single word' do
+      it { expect(Limerickify.translate('hello')).to == 'well sham'}
+      it { expect(Limerickify.translate('runners')).to == 'tackies'}
+    end
+    context 'a sentance' do
+      it { expect(Limerickify.translate("that's limerick city")).to == 'dats limerick city'}
+      # it { is_expected.to eq 'hello'}
+    end
   end
 end
