@@ -4,3 +4,9 @@ require "rspec/core/rake_task"
 RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
+
+
+desc 'Opens and irb session preloaded with this library.'
+task :console do
+  sh "irb -rubygems -I lib -r limerickify.rb"
+end
