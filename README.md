@@ -1,8 +1,10 @@
 # Limerickify
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/limerickify`. To experiment with that code, run `bin/console` for an interactive prompt.
+Ever wished you application could translate itself into Limerick speak?  Well neither did I but here it is anyway.
 
-TODO: Delete this and the text above, and describe your gem
+Convert English to the beautiful and distinct Limerick variant of English.
+
+See TODO list for limitations of which there is many.
 
 ## Installation
 
@@ -22,7 +24,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Limerickify.translate('runners') #=> 'tackies'
+Limerickify.translate('hello')   #=> 'well sham'
+
+## TODO
+  - [x] Simple translation. Translates word by word.
+  - []  Translate complex sentences.
+  - []  Reinstate punctuations in translation.
+  - []  Reinstate capital letters in translation.
+  - []  Railties
+  - []  Allow for an overide yaml file in a rails locale.
+  - []  Rake task to create translation file (i.e. translate Devise locale file and build a new one.)
+  - []  Rake task to destructively overwrite file with translation.
 
 ## Development
 
