@@ -11,7 +11,10 @@ module Limerickify
 
     def self.translate_string(words)
       return unless words
+      # to_translate.split(/ /).map do |word|
       # convert each word using the limerick dictionary
+
+      # see if there is a sentence match
       words.split(/ /).map do |word|
         if dictionary.has_key? word.downcase
           dictionary[word]
