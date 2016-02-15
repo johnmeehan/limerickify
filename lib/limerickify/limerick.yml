@@ -1,5 +1,11 @@
-locale: "limerick"
+locale: "limerick-city"
 dictionary:
+  'can i ask you something': c'mere I tell ya a question
+  'come here': c'mere
+  'funny man': gas bastard
+  'good to see you': a boy de kid
+  'I promise': I will I said
+  'want you': wantcha
   "I like your": pure daycint
   "I won't": I won't no
   "no way": nah man
@@ -8,17 +14,34 @@ dictionary:
   "you idiot": you're only a fool
   "you look nice": state of your face
   "you look well": state of your face
-  'I promise': I will I said
+  'no way': would you go away out of it
+  affirmative: yurt
+  are: is
   awesome: class
+  car: horse
+  cool: rapid
   eejit: gowl
-  good to see you: a boy de kid
+  excellent: rapid
+  fool: pitiful fool
+  funny: gas
+  girlfriend: beore
+  goat: billy goat
   hello: well sham
   no: nah
   one: wan
   runners: tackies
   sir: sham
   sneakers: tackies
+  son: young fella
   thanks: nice wan
-  they: is dem
+  them: dem
+  they: dem
   trainers: tackies
-  girlfriend: beore
+  yes: yurt
+  religion: gas cuntisim
+  politics: gas cuntisim
+  kfc: chicken hut
+  mcdonalds: donkey fords
+  faciliaties: cilties
+  facility: cilty
+  very: well
