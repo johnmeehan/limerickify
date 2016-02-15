@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["john.meehan1@gmail.com"]
 
   spec.summary       = %q{Translate English to Limerick}
-  spec.description   = %q{Translates Englisth test to a Limeick varient of English. }
+  spec.description   = %q{Translates English test to a Limeick varient of English. }
   spec.homepage      = "https://github.com/johnmeehan/limerickify"
   spec.license       = "MIT"
 
